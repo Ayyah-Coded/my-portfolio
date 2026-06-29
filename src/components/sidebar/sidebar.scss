@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     bottom: 0;
-    width: 400px;
+    width: 240px;
     background: white;
 
     @include mobile {
@@ -31,7 +31,7 @@
       gap: 20px;
 
       a {
-        font-size: 40px;
+        font-size: 24px;
 
         @include mobile {
           font-size: 20px;
@@ -51,6 +51,17 @@
     left: 25px;
     background-color: transparent;
     border: none;
+    cursor: pointer;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 998;          // ← just below .bg (999) so sidebar stays on top
+    background: transparent;
     cursor: pointer;
   }
 }

@@ -1,13 +1,14 @@
 @import "../../app.scss";
 
 .contact {
+  vertical-align: text-top;
   height: 100%;
   max-width: 1366px;
   margin: auto;
   display: flex;
   align-items: center;
-  gap: 50px;
-  padding: 0 50px;        // ← adds left/right breathing room
+  gap: 40px;
+  padding: 0 100px;        // ← adds left/right breathing room
 
   @include mobile {
     width: 100%;
@@ -43,13 +44,13 @@
       gap: 6px;
 
       h2 {
-        font-size: 25px;
+        font-size: 16px;
         font-weight: 600;
         color: white;
       }
 
       span {
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 300;
         color: #a78bfa;       // ← purple tint like in the target screenshot
       }

@@ -60,9 +60,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>E-Commerce Platform</h2>
+          <h2>Luxury E-Commerce Experiences</h2>
           <p>
-            Designed and developed a scalable event-driven e-commerce platform with microservices, secure payment integration, real-time order processing, and cloud-ready deployment for high performance and reliability.
+            Crafting premium online shopping experiences that combine performance, elegant design, secure payments, and seamless customer journeys for modern brands.
           </p>
           <button>Go</button>
         </motion.div>
@@ -70,12 +70,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Scalable Cloud Systems</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Designing resilient backend infrastructures, APIs, and microservices capable of powering high-traffic applications with security, reliability, and operational excellence.
           </p>
           <button>Go</button>
         </motion.div>
@@ -83,12 +80,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Mobile Experiences</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Developing polished cross-platform mobile applications that connect businesses with customers through fast, engaging, and beautifully crafted experiences.
           </p>
           <button>Go</button>
         </motion.div>
@@ -96,12 +90,9 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Digital Product Engineering</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Transforming ambitious ideas into scalable digital products with modern architecture, intuitive interfaces, and engineering practices built for long-term growth.
           </p>
           <button>Go</button>
         </motion.div>
