@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   gap: 50px;
+  padding: 0 50px;        // ← adds left/right breathing room
 
   @include mobile {
     width: 100%;
@@ -18,7 +19,7 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
 
     @include mobile {
       gap: 20px;
@@ -28,28 +29,41 @@
     }
 
     h1 {
-      font-size: 100px;
-      line-height: 88px;
+      font-size: 70px;       // ← was 100px
+      line-height: 1.15;     // ← was fixed 88px which caused overlap
 
       @include mobile {
         font-size: 36px;
       }
     }
 
-    span {
-      font-weight: 300;
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      h2 {
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+      }
+
+      span {
+        font-size: 20px;
+        font-weight: 300;
+        color: #a78bfa;       // ← purple tint like in the target screenshot
+      }
     }
   }
 
   .formContainer {
     flex: 1;
     position: relative;
-    
+
     @include mobile {
-      padding: 50px;
+      padding: 20px;
       width: 100%;
     }
-
 
     .phoneSvg {
       stroke: orange;
@@ -65,11 +79,17 @@
 
       input,
       textarea {
-        padding: 20px;
+        padding: 16px 20px;
         background-color: transparent;
         border: 1px solid white;
         color: white;
         border-radius: 5px;
+        font-size: 14px;
+        width: 100%;
+
+        &::placeholder {
+          color: gray;
+        }
 
         @include mobile {
           padding: 10px;
@@ -77,11 +97,14 @@
       }
 
       button {
-        padding: 20px;
+        padding: 18px;
         border: none;
         background-color: orange;
         cursor: pointer;
         font-weight: 500;
+        font-size: 15px;
+        border-radius: 4px;
+
         @include mobile {
           padding: 10px;
         }

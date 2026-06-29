@@ -1,6 +1,10 @@
 html {
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;  // default on
+
+  &.no-snap {
+    scroll-snap-type: none;       // off during load
+  }
 }
 
 * {
